@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url(../img/jumbo.png);
+    height: 495px;
+}
+
+#headercontainer{
+    height: 195px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 115px;
+
+}
+.flex-elements{
+    background-color: rgb(255, 187, 0);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 11%;
+    padding-right: 11%;
+    padding-bottom: 1%;
+    align-self: center;
+    
+}
+#hsecond{
+   
+    height: 290px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+ #pinkbox{
+    background-color: rgb(247, 11, 227);
+    width: 55%;
+    height: 75%;
+    margin:0;
+    display: flex;
+    align-self: center;
+
+}
+.whitesection{
+   background-image: url(../img/wave.svg);
+   background-color: white;
+    height: 700px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.whitesection :first-child{
+   background-image: url(../img/item1.svg);
+   background-repeat: no-repeat;
+    width: 40%;
+    height: 70%;
+    margin:6% 0% 7% 0%;
+    display: flex;
+    align-self: center;
+
+}
+.whitesection :last-child{
+    background-color: rgb(201, 45, 97);
+    width: 30%;
+    height: 70%;
+    margin:6% 0% 7% 0%;
+    display: flex;
+    align-self: center;
+}
+#greysection{
+    background-color: rgb(106, 103, 109);
+    height: 700px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+#greysection :first-child{
+    background-color: rgb(0, 138, 230);
+    width: 40%;
+    height: 70%;
+    margin:6% 0% 7% 0%;
+    display: flex;
+    align-self: center;
+
+}
+#greysection :last-child{
+    background-color: rgb(201, 45, 97);
+    width: 30%;
+    height: 70%;
+    margin:6% 0% 7% 0%;
+     display: flex;
+    align-self: center;
+}
+#containerwithverdone{
+    height: 1000px;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+
+}
+#containerwithverdone > div{
+    width: 70%;
+    height: 70%;
+    background-color: rgb(1, 136, 1);
+    align-self: center;
+}
+#blacksection{
+    height: 700px;
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    justify-content: flex-start;
+}
+#blacksection :first-child{
+    background-color: rgb(250, 53, 135);
+    width: 20%;
+    height: 70%;
+    margin:6% 0% 7% 5%;
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+}
+.colonne{
+    background-color: rgb(0, 207, 173);
+    border-style: dashed;
+    border-color: white;
+    width: 20%;
+    height: 70%;
+    margin:6% 0% 7% -2%;
+    display: flex;
+    align-self: center;
+
+}
+hr{
+    background-color: rgb(68, 68, 68);
+}
+#blacksection2{
+    height: 200px;
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    justify-content:flex-end;
+    flex-direction: column;
+    align-items: center;
+}
+#blacksection2 section{
+    background-color: rgb(3, 250, 168);
+    height: 50%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+
+}
+.footerformat{
+    background-color: rgb(233, 122, 228);
+    display: flex;
+    justify-content: space-between;
+    border: dashed 1px black; 
+    padding: 1%
+}
